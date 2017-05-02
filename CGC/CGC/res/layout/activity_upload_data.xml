@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/type_spn"
+        style="@style/mySpinnerItemStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dip"
+                android:paddingRight="5dip"
+                android:paddingTop="5dip"
+                android:text="Subject:"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:ems="10"
+                android:singleLine="true"
+                android:textColor="#FFFFFF" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/inputDesc"
+                android:paddingLeft="5dip"
+                android:paddingRight="10dip"
+                android:paddingTop="10dip"
+                android:text="Description:"
+                android:textSize="20dip"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/inputDesc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/inputName"
+                android:layout_margin="5dip"
+                android:layout_marginTop="52dp"
+                android:ems="10"
+                android:gravity="top"
+                android:lines="4"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnCapturePicture"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/btn_bg"
+                android:text="@string/btnTakePicture"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnSDCarcPick"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:layout_marginTop="20dp"
+                android:background="@color/btn_bg"
+                android:text="Pick from sdcard"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btnsenddata"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+				android:layout_marginRight="20dp"
+				android:layout_marginTop="20dp"
+                android:background="@color/btn_bg"
+                android:text="Upload without image"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

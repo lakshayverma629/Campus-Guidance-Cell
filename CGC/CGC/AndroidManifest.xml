@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.camerafileupload"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/jmit_radur"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="info.camerafileupload.UploadData"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="info.camerafileupload.UploadActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="info.camerafileupload.Notices"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.campusguidance.Get_data" >
+        </activity>
+        <activity
+            android:name="com.campusguidance.Notice_full"
+            android:label="@string/title_activity_notice_full" >
+        </activity>
+        <activity
+            android:name="com.campusguidance.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.campusguidance.Goto"
+            android:label="@string/title_activity_goto" >
+        </activity>
+        <activity
+            android:name="com.campusguidance.Category"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.campusguidance.Change_pw"
+            android:label="@string/title_activity_change_pw" >
+        </activity>
+        <activity
+            android:name="com.campusguidance.Help"
+            android:label="@string/title_activity_error" >
+        </activity>
+        <activity
+            android:name="info.camerafileupload.Delete_notice"
+            android:label="@string/title_activity_delete_notice" >
+        </activity>
+        <activity
+            android:name="com.campusguidance.AboutUs"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="info.androidhive.camerafileupload.Delete_notice"
+            android:label="@string/title_activity_delete_notice" >
+        </activity>
+    </application>
+
+</manifest>

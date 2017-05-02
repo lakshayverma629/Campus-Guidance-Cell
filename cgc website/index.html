@@ -1,0 +1,531 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CAREER GUIDANCE</title>
+  <link rel="stylesheet" href="eyes.css">
+  <link rel="stylesheet" media="screen" href="bootstrap/css/style.css" />
+	
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css">
+<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+<script>
+
+
+
+function slider()
+{
+
+$(".slider #1").show("fade",500);
+$(".slider #1").delay(2000).hide("fade",500);
+var sc=5;
+var count=2;
+
+clear=setInterval (  function(){
+
+$(".slider #"+count).show("fade",500);
+$(".slider #"+count).delay(2000).hide("fade",500);
+
+if(count==sc)
+{
+count=1;
+}
+else{
+count=count+1;
+}
+
+},3000);
+
+
+
+}
+
+
+</script>
+
+
+
+<!--effects-->
+
+<script>
+
+function showhome()
+{
+
+$(".slider").delay(500).show("fade",500);
+$(".guidance").delay(500).show("fade",500);
+$(".internship").hide("fade",500);
+$(".jobs").hide("fade",500);
+$(".members").hide("slide",{direction:'down'},500);
+$(".higher").hide("fade",500);
+
+
+        $("body").animate({scrollTop: 0},"slow");
+
+
+clearInterval(clear);
+
+
+
+function slide()
+{
+
+$(".slider #3").show("fade",500);
+$(".slider #3").delay(2000).hide("fade",500);
+var sc=5;
+var count=4;
+
+clear=setInterval (  function(){
+
+$(".slider #"+count).show("fade",500);
+$(".slider #"+count).delay(2000).hide("fade",500);
+
+if(count==sc)
+{
+count=1;
+}
+else{
+count=count+1;
+}
+
+},3000);
+
+
+
+}
+slide();
+
+		
+
+
+
+}
+
+
+function showmembers()
+{ 
+  
+$(".slider").hide("fade",500);
+$(".guidance").hide("fade",500);
+$(".jobs").hide("fade",500);
+$(".higher").hide("fade",500);
+$(".internship").hide("fade",500);
+$(".members").delay(500).show("slide",{direction:'down'},500);
+
+
+
+
+}
+
+
+
+function showinternships()
+{
+
+$(".members").hide("slide",{direction:'down'},500);
+$(".jobs").hide("fade",500);
+$(".higher").hide("fade",500);
+$(".guidance").hide("fade",500);
+
+
+
+        $("body").animate({scrollTop: 0},"slow");
+
+$(".internship").delay(500).show("fade",500);
+
+$(".slider").delay(500).show("fade",500);
+
+
+
+
+
+clearInterval(clear);
+
+
+
+function slide()
+{
+
+$(".slider #2").show("fade",500);
+$(".slider #2").delay(2000).hide("fade",500);
+var sc=5;
+var count=3;
+
+clear=setInterval (  function(){
+
+$(".slider #"+count).show("fade",500);
+$(".slider #"+count).delay(2000).hide("fade",500);
+
+if(count==sc)
+{
+count=1;
+}
+else{
+count=count+1;
+}
+
+},3000);
+
+
+
+}
+slide();
+
+}
+
+
+
+
+
+
+function showjobs()
+{
+
+$(".slider").delay(500).show("fade",500);
+$(".members").hide("slide",{direction:'down'},500);
+$(".internship").hide("fade",500);
+$(".higher").hide("fade",500);
+$(".guidance").hide("fade",500);
+
+
+
+        $("body").animate({scrollTop: 0},"slow");
+
+
+$(".jobs").delay(500).show("fade",500);
+
+
+
+clearInterval(clear);
+
+
+
+function slide()
+{
+
+$(".slider #4").show("fade",500);
+$(".slider #4").delay(2000).hide("fade",500);
+var sc=5;
+var count=5;
+
+clear=setInterval (  function(){
+
+$(".slider #"+count).show("fade",500);
+$(".slider #"+count).delay(2000).hide("fade",500);
+
+if(count==sc)
+{
+count=1;
+}
+else{
+count=count+1;
+}
+
+},3000);
+
+
+
+}
+slide();
+
+
+
+
+}
+
+
+function showhigher()
+{
+
+$(".slider").delay(500).show("fade",500);
+$(".members").hide("slide",{direction:'down'},500);
+$(".internship").hide("fade",500);
+$(".jobs").hide("fade",500);
+$(".guidance").hide("fade",500);
+
+
+
+        $("body").animate({scrollTop: 0},"slow");
+
+$(".higher").delay(500).show("fade",500);
+
+
+
+clearInterval(clear);
+
+
+
+function slide()
+{
+
+$(".slider #5").show("fade",500);
+$(".slider #5").delay(2000).hide("fade",500);
+var sc=5;
+var count=1;
+
+clear=setInterval (  function(){
+
+$(".slider #"+count).show("fade",500);
+$(".slider #"+count).delay(2000).hide("fade",500);
+
+if(count==sc)
+{
+count=1;
+}
+else{
+count=count+1;
+}
+
+},3000);
+
+
+
+}
+slide();
+
+
+
+}
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+</head>
+<body onload="slider()">
+
+
+<div class="next">
+<div class="rows">
+
+<div class="col-md-3">
+</div>
+<div class="col-md-9">
+<div class="navi">
+ <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+<ul id="nav">
+<li><a href="#" onclick="showhome()" ><span class="glyphicon glyphicon-home"></span> &nbsp Home</a></li>
+<li><a href="#" onclick="showmembers()"><span class="glyphicon glyphicon-list"></span> &nbsp Members&nbsp </a></li>
+<li><a href="#" onclick="showinternships()"><span class="glyphicon glyphicon-tag"></span> &nbsp  Training</a></li>
+<li><a href="#" onclick="showjobs()"><span class="glyphicon glyphicon-briefcase"></span>  &nbspJobs&nbsp  </a></li>
+<li><a href="#" onclick="showhigher()"> <span class="glyphicon glyphicon-star"></span>  &nbspHigher Studies &nbsp </a></li>
+<li><a href="https://drive.google.com/file/d/0B4lKY8P2B5H8V0llOHpfZ0xWY28/view?usp=sharing" target="_blank" > <span class="glyphicon glyphicon-download-alt"></span>  &nbspDownload App&nbsp </a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-2">
+</div>
+
+
+
+
+</div>
+</div>
+<br/><br/>
+
+
+<div class="container">
+<div class="matter">
+<div class="rows">
+
+<div class="col-md-2">
+<div class="side">
+<br/>
+<br/>
+<div class="logo" onclick="showhome()">
+
+</div>
+</div>
+
+</div>
+
+<div class="col-md-1">
+</div>
+<div class="col-md-9" id="back">
+<br/>
+<br/>
+<br/>
+
+
+<div class="slider">
+
+<img id="1" src="images/pic2.jpg" alt="cannot be displayed">
+<img id="2" src="images/pic1.jpg" alt="cannot be displayed">
+<img id="3" src="images/pic6.jpg" alt="cannot be displayed">
+<img id="4" src="images/pic10 copy.jpg" alt="cannot be displayed">
+<img id="5" src="images/picto.jpg" alt="cannot be displayed">
+
+
+</div>
+
+
+<br/>
+<br/>
+
+
+<div class="guidance">
+<center>
+<h3>CAREER GUIDANCE CELL</h3>
+</center>
+<br/>
+<p>
+
+
+The main objective of the Career Guidance Cell is to keep the students well-aware of all possible career options in their purview & to help them make informed & wise decisions about their future. Career Guidance Cell actively promotes student career counseling & placement services.We believe that, to get the best out of out programs & other extracurricular activities, the students should be aware of their new environment & their own needs & ambitions.
+
+
+One of the ways for students to improve their employability is to build a strong network with people from the industry & peers. Our institute helps the students in building strong networks which could be leveraged at the time of summer internship, final placement & later on in their life.
+<br/>
+<br/>
+<br/>
+</p>
+
+
+</div>
+
+
+
+
+<div class="members">
+<center>
+<h3>MEMBERS</h3>
+</center>
+
+<!--please change the pics in order-->
+
+<table width="100%" cellpadding="0px" cellspacing="0px">
+<tr height="190px" ><td width="180px" height="150px"><img src="images/user.png" width="150px" height="150px" class="img-circle" /></td><td width="180px" height="150px"><img src="images/user.png" width="150px" height="150px" class="img-circle" /></td><td width="180px" height="150px"><img src="images/user.png" width="150px" height="150px" class="img-circle" /></td></tr>
+<tr height="20px"><td width="180px" >&nbsp &nbsp   Mr Gaurav Sharma<br/>&nbsp &nbsp &nbsp (Asst. Prof,CSE)</td><td>&nbsp &nbsp   Mr. Gaurav Kapoor <br/>&nbsp &nbsp &nbsp  ( Asst. Prof,AEI )</td><td width="180px" >&nbsp &nbsp  Ms. Sunita Pachar<br/>&nbsp &nbsp   ( Asst. Prof,MBA )</td></tr>
+</table><br/><br>
+<table width="100%" cellpadding="0px" cellspacing="0px">
+<tr height="165px"><td width="180px" height="150px"><img src="images/user.png" width="150px" height="150px" class="img-circle" /></td><td width="180px" height="150px"><img src="images/user.png" width="150px" height="150px" class="img-circle" /></td><td width="180px" height="150px"><img src="images/user.png" width="150px" height="150px" class="img-circle" /></td></tr>
+<tr height="20px" ><td width="180px" >&nbsp &nbsp  Ms. Savita Khurana <br/>&nbsp &nbsp &nbsp  ( Asst. Prof,IT )</td><td>&nbsp &nbsp   Mr. Ashish Sachdeva <br/> &nbsp &nbsp &nbsp ( Asst. Prof,ECE )</td><td width="180px" >&nbsp &nbsp  Ms. Kanika Bajaj <br/>&nbsp  &nbsp( Asst. Prof,MCA )</td></tr>
+</table><br/><br>
+<table width="100%" cellpadding="0px" cellspacing="0px">
+<tr height="100px"><td width="180px" height="200px"><img src="images/user.png" width="150px" height="150px" class="img-circle" /></td><td width="180px" height="200px"><img src="images/user.png" width="150px" height="150px" class="img-circle" /></td><td width="180px" height="200px"><img src="images/user.png" width="150px" height="150px" class="img-circle" /></td></tr>
+<tr height="20px"><td width="180px" >&nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp Dr. Tapsi <br/>&nbsp &nbsp &nbsp ( Asst. Prof,ELE )</td><td>&nbsp  Mr. Gagandeep Chawla<br/>&nbsp &nbsp &nbsp  ( Asst. Prof,MECH )</td><td width="180px" >&nbsp &nbsp &nbsp Mr. Sumit Barar <br/>&nbsp &nbsp &nbsp( Asst. Prof,CHE )</td></tr>
+</table>
+<br/>
+<br/>
+</div>
+
+<div class="internship">
+<center>
+<h3>SUMMER TRAINING</h3>
+</center>
+<br/>
+<!------Copy this code to add training institutes-----> 
+<p ><b><center><nav1><div class="menu-item">
+      <h4><a href="#">List Of Good Training institutes for CSE and IT with proper cource details</a></h4>
+      <ul style="list-style-type:none">
+        <li><a href="institutes/ALLSOFT.pdf">ALLSOFT SOLUTIONS AND SERVICES (P) LTD </a></li>
+      <li><a href="institutes/CETPA.pdf">CETPA, Roorkee</a></li>
+        <li><a href="institutes/CLICK LAB.pdf">Click Labs, Chandigargh</a></li>
+        <li><a href="institutes/CMC Noida.pdf">CMC Noida</a></li>
+        <li><a href="institutes/DUCAT.pdf">DUCAT Noida</a></li>
+        <li><a href="institutes/Sedulity Solutions.pdf">Sedulity Solutions & Technologies, New Delhi. </a></li>
+        
+      </ul>
+    </div></nav1></center></b></p>
+    <!-------END---------->
+<p>A "summer training" is a very good opportunity to get crucial work experience in your summer holiday period, whilst developing industry contacts, making new friends and even earning reasonable money. Summer internships are available to any undergraduate student, but will require candidates to undergo a strenuous application, interview and assessment process.<br/>
+<br/>
+</p>
+
+
+</div><!--internship-->
+
+<div class="jobs">
+<center>
+<h3>JOBS</h3>
+</center>
+<br/>
+<p>
+A job is an activity, often regular, and often performed in exchange for payment. A person usually begins a job by becoming an employee, volunteering, or starting a business. The duration of a job may range from an hour (in the case of odd jobs) to a lifetime (in the case of some judges). The activity that requires a person's mental or physical effort is work (as in "a day's work"). If a person is trained for a certain type of job, they may have a profession. The series of jobs a person holds in their life is their career.
+<br>
+<center>
+<a href="docs/jobs.pdf">New Jobs</a></center>
+<br>
+<h3>SBI Probationary Officer Recruitment 2015-16</h3>
+<br>
+SBI has released the official notification for recruitment of Probationary Officers for the year 2015-16.
+<br><br>
+<b>Important dates to remember:</b>
+<ul>
+<li>Starting date for online registration: 13th April 2015</li>
+
+<li>Last date for online registration: 2nd May 2015</li>
+</ul>
+<br>
+No. of vacancies to be filled: <b>2000</b>
+<br>
+Applications are invited from eligible Indian citizens for the post of Probationary Officer in State Bank of India.
+<br>
+Probationary Officer posts are the most sought after jobs in the banking sector. As the name suggests, those recruited will be under probation for a period of atleast two years post which they would be promoted to various posts. With experience and expertise, they can easily move up to the post of Branch Manager.
+<br>
+<a href="http://www.sbi.co.in/portal/documents/44978/7348676/SBIPO-2015-Full+English+Advertisement.pdf/fa1e559b-0504-4df6-9d11-534790f1dd9">Click here for the official notification for SBI PO recruitment.</a>
+</p>
+</div><!--jobs-->
+<div class="higher">
+<center>
+<h3>HIGHER STUDIES</h3>
+</center>
+<br/>
+<p>
+Higher education, post-secondary education, tertiary education or third level education is an optional final stage of formal learning that occurs after secondary education. Often delivered at universities, academies, colleges, seminaries, and institutes of technology, higher education is also available through certain college-level institutions, including vocational schools, trade schools, and other career colleges that award academic degrees or professional certifications.
+<br><br>
+<center><a href="docs/US University rankings 2015 for Master of Science in Computer Science Major.pdf">US University rankings 2015 for Master of Science in Computer Science Major (MS in CS) and PhD </a></center>
+<br>
+<center<h3><b><u>ADMISSION PROCESS For M.S. in USA</u></b></h3></center>
+<br><br>If you plan to study MS in USA you better start preparing everything one year before you want to take admission. For example if you want to take admission in FALL 2014 session , then you should start your admission process from August 2013.
+<br><br>
+<u><b>Step 1:</b></u> Prepare well and take the GRE and TOEFL exam. If you plan to get into the top 200 universities of USA then better prepare hard and try to score 305+ in GRE and 90+ TOEFL. These are the minimum score required for admission in most of the Universities whose rank lies between 150-200. But if you want to study in the top universities be sure to score 320+ in GRE and 100+ in TOEFL. Those of you who donot have much idea about GRE you can log on to  <a href="http://www.ets.org/gr">www.ets.org/gre</a> . GRE exam is of 340 marks - 150 verbal + 150 Quantitative. Plus there is an analytical writing section which is score out of 6. TOEFL is of 120 marks . My more details about TOEFL in <a href="http://www.ets.org/toef">www.ets.org/toefl</a> . 
+
+<br><br>
+<u><b>Step 2:</b></u> Next step is preparing your admission documents. First of all send the GRE and TOEFL score online to the universities you plan to apply. Most universities have a deadline of 15th December for FALL admission. Fill the online application forms and send all your 
+transcripts. You will also need to submit a Statement of Purpose stating why you want to study in their university and also most universities require 3 recommendation letters.
+<br><br>
+<u><b>Step 3:</b></u> If you are an international student then you would be required to submit the affidavit of financial support , showing that you have the money required for your studies in USA. Most public universities would cost you between 30000$-40000$ per year   and private universities would cost you 40000$-50000$ per year. This amount is for international students including tuition fees and living expenses.However some public universities may cost you more than 40000$ per year and some private universities can cost you more than 50000$ per year. Of course you can reduce that expenses by doing side jobs or applying for teaching assistanceship and scholarships.
+
+<br><br>
+<u><b>Step 4:</b></u> Once you have been admission to a university , the next step is to let the college know that you will take admission and pay the required admission fee. Then college will send you the I-20 form which is required for applying for a VISA. Once you get your visa (F-1/J-1) then just get ready to have an amazing college experience.
+
+</p>
+<br/>
+<br/>
+</div><!--higher-->
+</div>
+</div>
+</div>
+
+</body>
+</html>
