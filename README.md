@@ -1,2 +1,2 @@
 # Campus-Guidance-Cell
-Application for JMIT
+* This application was developed for Ccampus Guidance Cell
